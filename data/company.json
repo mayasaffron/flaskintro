@@ -1,0 +1,28 @@
+[
+
+{"name":"blueberries",
+"description":"Blueberries are a very popular, tasty fruit native to North America but grown commercially across the Americas and Europe (1). They’re low in calories and incredibly healthy, potentially regulating blood sugar levels and aiding heart and brain health. Often marketed as a superfood, blueberries are an excellent source of several vitamins, beneficial plant compounds, and antioxidants (2Trusted Source).",
+"imageSource":"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/blueberry_400-423c31a.jpg?quality=90&resize=504,458?quality=90&webp=true&resize=504,459",
+"url":"blueberries"
+},
+
+{"name":"blackberries",
+"description":"While you might be totally on top of your blueberry, strawberry and raspberry game, there’s one sweet summer berry you might not know what the heck to do with: blackberries. Luckily, we’ve got you covered. Here’s everything you need to know about the big juicy berries popping up at the farmers market starting in April and lasting through August.",
+"imageSource":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/766/everything-you-need-to-know-about-blackberries-main-1499890002.jpg?crop=1xw:0.786xh;center,top&resize=1200:*",
+"url":"blackberries"},
+
+{"name":"Rasberries",
+"description":"Over recent years, the consumption of berries in Europe has sky-rocketed. As a result, its production has undergone a major surge, particularly in Spain. Among what are known as “fruits of the forest” the raspberry has become one of the most highly valued by consumers, for its flavor at once sweet and slighty acidic.In 2005 Planasa began to develop its raspberry variety research programme with the aim of improving already existing varieties and of favouring the consumption of this healthy berry. In 2012, following intensive R&D work, the Adelita variety was launched.",
+"imageSource":"https://planasa.com/wp-content/uploads/2017/04/frambuesas-adelita.jpg",
+"url":"rasberries"},
+
+{"name":"Strawberries",
+"description":"Spring is synonymous with flowers and sunshine. But it also brings with it natural ingredients that are wonderful DIY skincare remedies. And there’s nothing like strawberries. They are not just a delicious treat but also great for your skin. Rich in antioxidants and ellagic acid which slows down ageing, the fruit also hydrates the skin, brightens and exfoliates it.",
+"imageSource":"https://images.indianexpress.com/2020/02/strawberry-759.jpg",
+"url":"strawberries"},
+
+{"name":"Gooseberries",
+"description":"A few weeks before they are ripe, remove alternate fruit and use them for cooking. Leave the remaining fruit to ripen on the plant, but don’t leave them until they become too soft. The fruit tastes delicious straight from the bush, but it can also be frozen. You can expect a yield of about 5kg (11lb) from each gooseberry bush.",
+"imageSource":"https://www.lovethegarden.com/sites/default/files/content/articles/UK_harvested-gooseberries.jpg",
+"url":"gooseberries"}
+]

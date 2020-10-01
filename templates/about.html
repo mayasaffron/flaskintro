@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+
+    <h2> {{ pageTitle }} </h2>
+    <p> 
+    Berries are one of my super foods, and are represented by the second “B” in G-BOMBS. Rich in fiber and phytochemicals and low in calories, they have the highest Aggregate Nutrient Density Index (ANDI) scores of all fruits. Blueberries, raspberries, strawberries and blackberries are vibrantly colored with antioxidant phytochemicals, and they are some of the highest antioxidant foods in existence.
+
+The deep red, blue and purple pigments of berries are produced by flavonoid antioxidant molecules called anthocyanins, which are concentrated in the skins of the fruits.1 Flavonoids, including anthocyanins, are not merely antioxidants; they are thought to have a number of additional beneficial effects in the body that are unrelated to their antioxidant capacity. In my book, The End of Heart Disease, I cite several studies that have shown that high flavonoid intake is associated with considerable risk reductions (up to 45%) for coronary heart disease.2-5
+
+Recent research highlights the cardio-protective properties of berries
+A 2011 study investigated berry consumption in relation to risk for elevated blood pressure. Compared to eating no blueberries, just one serving per week decreased the risk of hypertension by 10%.6,7 New findings published in January 2013 from the Nurses’ Health Study support these results with data in younger women (age 25-42 at the start) who were followed for 18 years. In these women, three or more weekly servings of blueberries or strawberries was linked to a 34% reduced risk of heart attack compared to lower intake of berries.8
+    </p>
+
+{% for member in company %}
+
+<div class="row featurette">
+{% if loop.index % 2 != 0 %}
+<div class="col-md-7">
+<h3><a href="/about/{{ member.url }}"> {{ loop.index }} {{ member.name }} </a></h3>
+<p>
+{{ member.description }}
+</p>
+</div>
+<div class="col-md-5">
+<img class="featurette-image img-responsive" src="{{ member.imageSource }}">
+</div>
+{% else %}
+<div class="col-md-5">
+<img class="featurette-image img-responsive" src="{{ member.imageSource }}">
+</div>
+
+<div class="col-md-7">
+<h3><a href="/about/{{ member.url }}">{{ loop.index }} {{ member.name }}</a></h3>
+<p>
+{{ member.description }}
+</p>
+</div>
+{% endif %}
+</div>
+
+{% if loop.index != 5 %}
+<hr class="featurette-divider">
+{% endif %}
+{% endfor %}
+{% endblock %}
